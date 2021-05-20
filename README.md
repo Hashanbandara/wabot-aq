@@ -51,10 +51,6 @@ Activate self mode (Ignores other)
 * `prefixes` are seperated by each character
 Set prefix
 
-### `--server`
-
-Used for [heroku](https://heroku.com/) or scan through website
-
 ### `--big-qr`
 
 If small qr unicode doesn't support
