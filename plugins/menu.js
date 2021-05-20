@@ -84,7 +84,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
 ╭─「 ${conn.user.name} 」
-│ 🌀WELCOME TO DATAHORU OFFICIAL BOT🌀 %name!
+│ 🌀🇱🇰WELCOME TO DATAHORU OFFICIAL BOT🇱🇰🌀 %name!
 │             ⚛contact me on whatsapp⚛
 |               wa.me/+94718790419
 │ 💉LIMITED TIMES⏱️ *%limit Limit*
