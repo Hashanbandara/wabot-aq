@@ -38,8 +38,8 @@ let handler = async (m, { conn, usedPrefix, command, text, args, isROwner }) => 
 List option: welcome | delete | public | antilink | autolevelup | detect
 
 Contoh:
-${usedPrefix}enable welcome
-${usedPrefix}disable welcome
+${usedPrefix}enable welcome (වෙල්කම් මැසේජ ඇක්ටිව් කිරීම සදහා)
+${usedPrefix}disable welcome (වෙල්කම් මැසේජ නතර කිරීම සදහා)
 `.trim())
   }
   m.reply(`
