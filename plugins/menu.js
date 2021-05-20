@@ -91,7 +91,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ 💉LEVEL❄️ *%level (%exp / %maxexp)*
 |     ⚔️PLEASE SHARE OUR SERVICE⚔️
 │ 
-│ ⚙️LAST UPDATE⚙️: 2021/05/20
+│ ⚙️TOOL LAST UPDATED⚙️: 2021/05/20
 │   📌️DAILY BOT WORKS 12 HOURS ONLY📌️
 │ ⚙️STARTED TIME⚙️: *%time*
 │
