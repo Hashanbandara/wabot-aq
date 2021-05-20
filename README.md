@@ -84,4 +84,4 @@ conn.logger.level = 'debug'
 
 ---------
 
-#### Powered By : DATAHORU
+#### Powered By : DATAHORU🇱🇰
