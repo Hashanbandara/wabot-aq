@@ -35,7 +35,7 @@ let handler = async (m, { conn, usedPrefix, command, text, args, isROwner }) => 
       break
     default:
       return m.reply(`
-List option: welcome | delete | public | antilink | autolevelup | detect
+List option(GROUP වල වැඩ කරන කමන්ඩ්): welcome | delete | public | antilink | autolevelup | detect
 
 Contoh:
 ${usedPrefix}enable welcome (වෙල්කම් මැසේජ ඇක්ටිව් කිරීම සදහා)
