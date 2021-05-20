@@ -85,6 +85,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let before = conn.menu.before || `
 ╭─「 ${conn.user.name} 」
 │ 🌀🇱🇰WELCOME TO DATAHORU OFFICIAL BOT🇱🇰🌀 %name!
+|   our 🇱🇰official bot link🇱🇰 = wa.me/+94752746774
 │             ⚛contact me on whatsapp⚛
 |               wa.me/+94718790419
 │ 💉LIMITED TIMES⏱️ *%limit Limit*
@@ -99,7 +100,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ ⚙️DATABASE⚙️: %rtotalreg of %totalreg
 │ ♨️YOUTUBE♨️:
 │        https://youtube.com/channel/UC2N-l2x07YZ3D6KfExmSuDg
-╰────
+╰────##DATAHORU ADMIN TEAM🇱🇰
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
     let body   = conn.menu.body   || '│ • %cmd%islimit'
