@@ -84,20 +84,21 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
 ╭─「 ${conn.user.name} 」
-│ Hai, %name!
-│
-│ Tersisa *%limit Limit*
-│ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
-│ %totalexp XP in Total
+│ 🌀WELCOME TO DATAHORU OFFICIAL BOT🌀 %name!
+│             ⚛contact me on whatsapp⚛
+|               wa.me/+94718790419
+│ 💉LIMITED TIMES⏱️ *%limit Limit*
+│ 💉LEVEL❄️ *%level (%exp / %maxexp)*
+|     ⚔️PLEASE SHARE OUR SERVICE⚔️
 │ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
+│ ⚙️LAST UPDATE⚙️: 2021/05/20
+│   📌️DAILY BOT WORKS 12 HOURS ONLY📌️
+│ ⚙️STARTED TIME⚙️: *%time*
 │
-│ Uptime: *%uptime (%muptime)*
-│ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ ⚙️DATABASE UPDATE⚙️: *%uptime (%muptime)*
+│ ⚙️DATABASE⚙️: %rtotalreg of %totalreg
+│ ♨️YOUTUBE♨️:
+│        https://youtube.com/channel/UC2N-l2x07YZ3D6KfExmSuDg
 ╰────
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
