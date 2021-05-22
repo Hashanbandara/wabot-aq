@@ -84,25 +84,30 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
 ╭─「 ${conn.user.name} 」
-│ 🌀🇱🇰WELCOME TO DATAHORU BOTS🇱🇰🌀 %name!
-|   
-|     💢our 🇱🇰official bot link🇱🇰 = wa.me/+94752746774
-│             ⚛contact me on whatsapp⚛
-|               wa.me/+94718790419
-|
+│ *🌀🇱🇰WELCOME TO DATAHORU BOTS🇱🇰🌀* %name!
+│
+│   ~_*🚫STAY SAFE STAY HOME🚫*_~
+│     ~_*🌍covid-19🌍*_~
+│  
+│    _💢our 🇱🇰official bot link🇱🇰_ = wa.me/+94752746774
+│             _⚛contact me on whatsapp⚛_
+│              wa.me/+94718790419
+│
 │ 💉LIMITED TIMES⏱️ *%limit Limit*
 │ 💉LEVEL❄️ *%level (%exp / %maxexp)*
-|     ⚔️PLEASE SHARE OUR SERVICE⚔️
+│    ~_*⚔️🔰PLEASE SHARE OUR      SERVICE🔱⚔️*_~
 │ 
-│ ⚙️TOOL LAST UPDATED⚙️: 2021/05/20
-│   📌️DAILY BOT WORKS 12 HOURS ONLY📌️
-│ ⚙️STARTED TIME⚙️: *%time*
+│ _~⚙️TOOL LAST UPDATED⚙️:~_ *2021/05/22*
+│   *📌️THE OFFICIAL BOT ONLY WORKS 12 HOURS A DAY📌️*
+│ _~⚙️STARTED TIME⚙️:~_ *%time*
 │
-│ ⚙️DATABASE UPDATE⚙️: *%uptime (%muptime)*
-│ ⚙️DATABASE⚙️: %rtotalreg of %totalreg
-│ ♨️SUBSCRIBE US♨️:
+│ ~_⚙️DATABASE UPDATE⚙️:_~ *%uptime (%muptime)*
+│ ~_⚙️DATABASE⚙️:_~ %rtotalreg of %totalreg
+│ *♨️SUBSCRIBE US♨️:*
 │        https://youtube.com/channel/UC2N-l2x07YZ3D6KfExmSuDg
-╰────##DATAHORU ADMIN TEAM🇱🇰
+│
+│ _*#📌️DATAHORU ADMIN TEAM🇱🇰*_
+╰──── 
 %readmore`
     let header = conn.menu.header || '╭─「 %category 」'
     let body   = conn.menu.body   || '│ • %cmd%islimit'
