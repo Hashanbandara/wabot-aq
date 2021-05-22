@@ -57,6 +57,8 @@ $maxexp (Exp To Level Up)
 %version
 %github
 
+♨️සාර්තකව මෙනුඑක එඩිට් වී ඇත♨️
+
 Bagian Menu Header & Footer:
 %category (Kategori)
 
