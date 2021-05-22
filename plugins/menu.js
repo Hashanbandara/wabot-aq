@@ -100,7 +100,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │
 │ ⚙️DATABASE UPDATE⚙️: *%uptime (%muptime)*
 │ ⚙️DATABASE⚙️: %rtotalreg of %totalreg
-│ ♨️YOUTUBE♨️:
+│ ♨️SUBSCRIBE US♨️:
 │        https://youtube.com/channel/UC2N-l2x07YZ3D6KfExmSuDg
 ╰────##DATAHORU ADMIN TEAM🇱🇰
 %readmore`
