@@ -34,7 +34,7 @@ let handler  = async (m, { conn, args, usedPrefix, command }) => {
     conn.connect().then(async ({user}) => {
       parent.reply(m.chat, 'Berhasil tersambung dengan WhatsApp - mu.\n*NOTE: Ini cuma numpang*\n' + JSON.stringify(user, null, 2), m)
       if (auth) return
-      await parent.sendMessage(user.jid, `Kamu bisa login tanpa qr dengan pesan dibawah ini. untuk mendapatkan kode lengkapnya, silahkan kirim *${usedPrefix}getcode* untuk mendapatkan kode yang akurat`, MessageType.extendedText)
+      await parent.sendMessage(user.jid, `පහත පණිවිඩය සමඟ qr නොමැතිව ඔබට පිවිසිය හැකිය.  සම්පූර්ණ කේතය ලබා ගැනීමට කරුණාකර නිවැරදි කේතයක් ලබා ගැනීමට * .getcode * යවන්න`, MessageType.extendedText)
       parent.sendMessage(user.jid, `${usedPrefix + command} ${Buffer.from(JSON.stringify(conn.base64EncodedAuthInfo())).toString('base64')}`, MessageType.extendedText)
     })
     setTimeout(() => {
